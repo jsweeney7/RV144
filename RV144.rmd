@@ -45,6 +45,7 @@ rownames(results) <- c("none","aids")
 
 ## Results
 <!-- You are to add descriptive comments to explain to the reader what the plot is showing !-->
+We would expect two graphs of equal size (50% on either side) if the two variables are independent. They do not appear equal... shedding doubt of independence. 
 
 ### Graphical results
 <!--Display graphical evidence as to the effectiveness of the vaccine with explanations!-->
@@ -67,7 +68,7 @@ rowPerc(results)
 ## Inferential results
 
 <!--Display inferential evidence as to the effectiveness of the vaccine with explanations and interpretations!-->
-
+We now want to run a statsical test 
 ```{r}
 chisqtestGC(results, graph = TRUE)
 ```
